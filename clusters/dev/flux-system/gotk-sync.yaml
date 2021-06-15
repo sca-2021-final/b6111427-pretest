@@ -7,10 +7,10 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: master
   secretRef:
     name: flux-system
-  url: https://github.com/b6111427/sca-lecture-9.git
+  url: https://github.com/B6111427/b6111427-pretest.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
